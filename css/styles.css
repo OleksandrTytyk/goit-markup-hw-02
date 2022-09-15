@@ -1,0 +1,28 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --white-text-color: #ffffff;
+  --transparent-white-color: rgba(255, 255, 255, 0.6);
+  --primary-font-color: #ffffff;
+  --secondary-font-color: #2f303a;
+  --section-font-color: #f5f4fa;
+  --logo-dark-color: #000000;
+  --logo-accent-color: #2196f3;
+  --accent-color: #2196f3;
+  --hero-button-hover: #188ce8;
+  --button-bcg-color: #f5f4fa;
+}
