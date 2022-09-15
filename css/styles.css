@@ -26,3 +26,13 @@
   --hero-button-hover: #188ce8;
   --button-bcg-color: #f5f4fa;
 }
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-font-color);
+    font-family: Roboto;
+}
+
+.link {
+    text-decoration: none;
+}
