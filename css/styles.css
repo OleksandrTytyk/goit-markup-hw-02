@@ -40,6 +40,10 @@ body {
 .list {
   list-style: none;
 }
+
+.header-list .header-link.current {
+  color: var(--accent-color);
+}
 /* Хедер */
 
 .address {
@@ -55,7 +59,7 @@ body {
 .logo {
   font-family: 'Raleway';
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1,19;
   letter-spacing: 0.03em;
   color: var(--logo-dark-color);
 }
@@ -175,6 +179,44 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Фільтри */
+.filter-btn {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background-color: var(--button-bcg-color);
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+/* Проекти */
+
+.project-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.project-link:hover,
+.project-link:focus {
+  background-color: var(--accent-color);
+}
+
 /* Підвал */
 .footer {
   background-color: var(--secondary-font-color);
@@ -183,7 +225,7 @@ body {
 .logo-footer {
   font-family: 'Raleway';
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1,19;
   letter-spacing: 0.03em;
   color: var(--white-text-color);
 }
